@@ -2,8 +2,8 @@ import numpy as np
 from PIL import Image
 from scipy.signal import convolve2d
 
-def load_image("tal bezet2.jpg"):
-    img = Image.open("tal bezet2.jpg")
+def load_image(image_path):
+    img = Image.open(image_path)
     img = img.convert('RGB')
     return np.array(img)
 
