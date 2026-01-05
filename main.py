@@ -10,4 +10,4 @@ clean_image_scaled = 255 * (clean_image - clean_image.min()) / (clean_image.max(
 clean_image_uint8 = clean_image_scaled.astype(np.uint8)
 
 edge_image = Image.fromarray(clean_image_uint8)
-edge_image.save('my_edges.png')
+edge_image.save('my_edges1.png')
