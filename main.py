@@ -24,7 +24,7 @@ def main():
     
     # 5. שמירת התוצאה כקובץ PNG
     edge_image = Image.fromarray(edge_binary)
-    edge_image.save('my_edges.png')
+    edge_image.save('my_edges1.png')
     print("The edge-detected image has been saved as 'my_edges.png'")
 
 if __name__ == "__main__":
