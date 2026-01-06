@@ -4,7 +4,6 @@ from scipy.signal import convolve2d
 
 def load_image(image_path):
     img = Image.open(image_path)
-    img = img.convert('RGB')
     return np.array(img)
 
 def edge_detection(image_array):
